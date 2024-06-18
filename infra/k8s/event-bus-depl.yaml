@@ -15,7 +15,7 @@ spec:
       containers:
         - name: event-bus
           image: yashrajsingh290/event-bus
-          imagePullPolicy: Never
+          
 ---
 apiVersion: v1
 kind: Service
